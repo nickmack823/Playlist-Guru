@@ -1,0 +1,87 @@
+{
+    "Optimistic": {
+        "description": "An optimistic playlist that focuses on themes of self-efficacy, optimistic futures, uplifting, inspirational",
+        "songs": [
+            [
+                {
+                    "track_name": "Get Back Up",
+                    "artist": "TobyMac",
+                    "explanation": "",
+                    "spotify_id": "0x962K1qfbp51oYBj8iIHn"
+                },
+                {
+                    "track_name": "Dirty Paws",
+                    "artist": "Of Monsters and Men",
+                    "explanation": "",
+                    "spotify_id": "1hxq7kWQnwdhxgpEugBMGk"
+                },
+                {
+                    "track_name": "Follow Your Arrow",
+                    "artist": "Kacey Musgraves",
+                    "explanation": "",
+                    "spotify_id": "4CLPNURPcKztF9RRdcWLGP"
+                },
+                {
+                    "track_name": "Hurricane",
+                    "artist": "The Fray",
+                    "explanation": "",
+                    "spotify_id": "3A9gGQJuJqYAF0w5vU6fMI"
+                },
+                {
+                    "track_name": "Feel Again",
+                    "artist": "OneRepublic",
+                    "explanation": "",
+                    "spotify_id": "6nmVeODcBpsGKx5RPv003D"
+                },
+                {
+                    "track_name": "You're the Voice",
+                    "artist": "John Farnham",
+                    "explanation": "The song's message of standing together, making a difference, and not living with fear aligns with the themes of self-efficacy and optimistic futures. The Valence score of 0.644 suggests a positive and uplifting tone, making it suitable for the playlist.\n",
+                    "spotify_id": "5NwkWwfRJaT55hEPtCmJHx"
+                },
+                {
+                    "track_name": "Parachute",
+                    "artist": "Sean Ono Lennon",
+                    "explanation": "This song's themes of love, commitment, and acceptance generally align with the optimistic tone of the playlist. However, some lyrics hint at sadness and disillusionment, so while it may not be a perfect fit, its positivity prevails.\n",
+                    "spotify_id": "1r2sFdtf7WQgwFdkqk6Bti"
+                },
+                {
+                    "track_name": "As The World Falls Down",
+                    "artist": "David Bowie",
+                    "explanation": "The song's focus on love, hope, and resilience makes it a good match for the playlist's themes. Although the title and some lyrics hint at sadness, the optimistic and major key modality of the song help overcome any negative associations.\n",
+                    "spotify_id": "29wBjy8SnPI0FLj1xaRWp0"
+                },
+                {
+                    "track_name": "Rolling Waves",
+                    "artist": "The Naked And Famous",
+                    "explanation": "This track's high-energy beat, catchy melody, and Danceable score make it a great fit for a lively playlist. While the lyrics describe vulnerability, the overall message of embracing life's challenges aligns with self-efficacy and encourages a positive, optimistic tone.\n",
+                    "spotify_id": "2uXWgJB6VYBHFLF6tFKuTy"
+                },
+                {
+                    "track_name": "Raging Fire",
+                    "artist": "Phillip Phillips",
+                    "explanation": "",
+                    "spotify_id": "5orNvuULGrmmTwBeW5G3dT"
+                },
+                {
+                    "track_name": "Breakeven",
+                    "artist": "The Script",
+                    "explanation": "",
+                    "spotify_id": "38xWaVFKaxZlMFvzNff2aW"
+                },
+                {
+                    "track_name": "Cardiac Arrest",
+                    "artist": "Bad Suns",
+                    "explanation": "",
+                    "spotify_id": "3pxDFUN3LrSGq6RrUKHtaG"
+                },
+                {
+                    "track_name": "Peaches",
+                    "artist": "In The Valley Below",
+                    "explanation": "",
+                    "spotify_id": "0JsRZWdSquAQtgyJO8mhLA"
+                }
+            ]
+        ]
+    }
+}

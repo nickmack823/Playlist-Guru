@@ -11,6 +11,7 @@ from spotify_api import SpotifyAPI
 class DatabaseManager:
     @staticmethod
     def initialize(db_path: str):
+        logging.info(f"Initializing database at {db_path}...")
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
         cursor.execute('''
@@ -89,6 +90,19 @@ class DatabaseManager:
         conn.commit()
         conn.close()
 
+
+    @staticmethod
+    def insert_playlist(db_path: str, playlist_path: str):
+        logging.info(f"Loading playlist into database: {playlist_path}...")
+        playlist = pd.read_csv(playlist_path)
+        DatabaseManager.execute_query(
+            db_path,
+            "INSERT OR IGNORE INTO songs (track_name, artist, album, release_date, duration_ms, spotify_id) VALUES (?, ?, ?, ?, ?, ?)", 
+            playlist[["Track Name", "Artist(s)", "Album", "Release Date", "Duration (ms)", "Spotify ID"]].values.tolist()
+        )
+
+        return
+
     # Retrieve and update audio features for database songs
     @staticmethod
     def update_audio_features(db_path: str):
@@ -107,7 +121,6 @@ class DatabaseManager:
         features = SpotifyManager.fetch_audio_features(song_ids)
 
         for _, row in features.iterrows():
-
             # Convert key from int to str note representation
             if row['key'] is not None:
                 row['key'] = SongAnalyzer.key_mapper(row['key'])
